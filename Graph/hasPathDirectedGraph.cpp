@@ -22,7 +22,7 @@ bool hasPath(int V ,int src, int dest, const vector<vector<int>> adj){//V = numb
     return pathHelper(src , dest , adj , visited);
 }
 int main(){
-     int V = 7;
+    int V = 7;
     //adjacency list using vector of vectors
     vector<vector<int>> adj(V);
     //add undirected edges
