@@ -28,7 +28,7 @@ int main(){
     //add undirected edges
     auto addEdge = [&](int u, int v){
         adj[u].push_back(v);
-        adj[v].push_back(u);
+        // adj[v].push_back(u);
     };
     addEdge(0,1);
     addEdge(0,2);
